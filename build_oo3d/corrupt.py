@@ -40,10 +40,10 @@ def load_data(partition):
 
 
 def pc_normalize(pc):
-    centroid = np.mean(pc, axis=0)
-    pc = pc - centroid
-    m = np.max(np.sqrt(np.sum(pc ** 2, axis=1)))
-    pc = pc / m
+    centroid = np.mean(pc[:, :3], axis=0)
+    pc[:, :3] = pc[:, :3] - centroid
+    m = np.max(np.sqrt(np.sum(pc[:, :3] ** 2, axis=1)))
+    pc[:, :3] = pc[:, :3] / m
     return pc
 
 
@@ -66,7 +66,7 @@ def corrupt_data(all_data, type, level):
         return all_data
     corrupted_data = []
     for pcd in all_data:
-        corrupted_pcd = corruptions[type](pcd, level)
+        corrupted_pcd = corruptions[type](np.copy(pcd), level)
         corrupted_data.append(corrupted_pcd)
     corrupted_data = np.stack(corrupted_data, axis=0)
     return corrupted_data
