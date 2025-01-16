@@ -22,3 +22,18 @@ Crops3D is designed to support three critical tasks in 3D crop phenotyping:
 1. **Instance Segmentation of Individual Plants**: Precise segmentation of individual plants in agricultural settings.
 2. **Plant Type Perception**: Accurate identification and classification of different crop types.
 3. **Plant Organ Segmentation**: Detailed segmentation of plant organs, enabling fine-grained analysis.
+
+## Citation
+
+If you use Crops3D in your research, please cite our paper:
+
+```bibtex
+@article{crops3d2024,
+  title={Crops3D: A Diverse 3D Crop Dataset for Realistic Perception and Segmentation toward Agricultural Applications},
+  author={Zhu, J. and Zhai, R. and Ren, H. et al.},
+  journal={Scientific Data},
+  year={2024},
+  volume={11},
+  number={1438},
+  doi={10.1038/s41597-024-04290-0}
+}
