@@ -3,6 +3,7 @@ Util for the Crops3D Dataset
 
 
 # Crops3D: A Diverse 3D Crop Dataset for Realistic Perception and Segmentation
+![Crops3D](https://github.com/user-attachments/assets/8f7e5a85-c952-4964-b15e-85c3c163de47)
 
 ## Overview
 
