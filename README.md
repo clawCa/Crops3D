@@ -6,7 +6,7 @@ Util for the Crops3D Dataset
 
 ## Overview
 
-Crops3D is a diverse, real-world 3D crop dataset designed to facilitate research in agricultural computer vision. This dataset is derived from authentic agricultural scenarios and is tailored to support advanced 3D point cloud analysis tasks. Crops3D is unique in its diversity, authenticity, and complexity, making it an invaluable resource for researchers and practitioners in the agricultural domain.
+Crops3D is a 3D crop dataset designed to support research in agricultural computer vision. It is derived from real-world agricultural scenarios and aims to facilitate advanced 3D point cloud analysis tasks. The dataset is characterized by its diversity, authenticity, and complexity, providing a resource for researchers and practitioners working in the agricultural domain.
 
 ## Key Features
 
