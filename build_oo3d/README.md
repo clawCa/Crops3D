@@ -1,5 +1,5 @@
-# Generation Scripts for OO3D-C
-You may generate OO3D-C by:
+# Generation Scripts for crops3D-C
+You may generate crops3D-C by:
 ```shell
 python corrupt.py
 ```
