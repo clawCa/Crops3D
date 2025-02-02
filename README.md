@@ -23,6 +23,21 @@ Crops3D is designed to support three critical tasks in 3D crop phenotyping:
 2. **Plant Type Perception**: Accurate identification and classification of different crop types.
 3. **Plant Organ Segmentation**: Detailed segmentation of plant organs, enabling fine-grained analysis.
 
+## Citation
+
+If you use Crops3D in your research, please cite our paper:
+
+```bibtex
+@article{crops3d2024,
+  title={Crops3D: A Diverse 3D Crop Dataset for Realistic Perception and Segmentation toward Agricultural Applications},
+  author={Zhu, J. and Zhai, R. and Ren, H. et al.},
+  journal={Scientific Data},
+  year={2024},
+  volume={11},
+  number={1438},
+  doi={10.1038/s41597-024-04290-0}
+}
+
 ## Dataset Download
 
 The dataset is stored in the [figshare](https://figshare.com/) database and can be accessed and downloaded using the following DOI: [https://doi.org/10.6084/m9.figshare.27313272](https://doi.org/10.6084/m9.figshare.27313272).
@@ -48,17 +63,3 @@ The dataset consists of a series of PLY and HDF5 files, compressed into a file n
    - The two text files enumerate the relative paths of samples in the training and test sets.
 
 
-## Citation
-
-If you use Crops3D in your research, please cite our paper:
-
-```bibtex
-@article{crops3d2024,
-  title={Crops3D: A Diverse 3D Crop Dataset for Realistic Perception and Segmentation toward Agricultural Applications},
-  author={Zhu, J. and Zhai, R. and Ren, H. et al.},
-  journal={Scientific Data},
-  year={2024},
-  volume={11},
-  number={1438},
-  doi={10.1038/s41597-024-04290-0}
-}
