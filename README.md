@@ -23,6 +23,31 @@ Crops3D is designed to support three critical tasks in 3D crop phenotyping:
 2. **Plant Type Perception**: Accurate identification and classification of different crop types.
 3. **Plant Organ Segmentation**: Detailed segmentation of plant organs, enabling fine-grained analysis.
 
+## Dataset Download
+
+The dataset is stored in the [figshare](https://figshare.com/) database and can be accessed and downloaded using the following DOI: [https://doi.org/10.6084/m9.figshare.27313272](https://doi.org/10.6084/m9.figshare.27313272).
+
+The dataset consists of a series of PLY and HDF5 files, compressed into a file named `Crops3D.zip`. It includes four main directories:
+
+### 1. **Crops3D Directory**
+   - Contains annotated raw point cloud data.
+   - Includes eight directories named after specific crops: `Cabbage`, `Cotton`, `Maize`, `Potato`, `Rapeseed`, `Rice`, `Tomato`, and `Wheat`. Each directory stores PLY point cloud files for the respective crop.
+   - Two text files list the relative paths of samples in the training and test sets.
+
+### 2. **Crops3D_10k Directory**
+   - Contains point cloud data subsampled to 10,000 points using FPS (Farthest Point Sampling).
+   - The file structure mirrors that of the `Crops3D` directory for consistency and ease of use.
+
+### 3. **Crops3D_10k-C Directory**
+   - Contains a `corrupt` directory and two HDF5 (H5) files representing the training and test datasets.
+   - The `corrupt` directory includes 36 H5 files: one clean test set and 35 files corresponding to seven types of corrupted test sets, each divided into five severity levels.
+
+### 4. **Crops3D_IS Directory**
+   - Contains point cloud data intended for individual plant segmentation at the plot scale (instance segmentation).
+   - Includes one subdirectory and two text files. The subdirectory stores point cloud data for 50 plots, covering maize, potato, and rapeseed crops, formatted in PLY.
+   - The two text files enumerate the relative paths of samples in the training and test sets.
+
+
 ## Citation
 
 If you use Crops3D in your research, please cite our paper:
