@@ -69,7 +69,7 @@ The dataset consists of a series of PLY and HDF5 files, compressed into a file n
 - **Data Structure**: X Y Z R G B sf
 
 ### Organ Segmentation
-- `sf` field represents **organ category labels**  (e.g., 0:soil 1: "Stem", 2: "Leaf", 3: "Fruit")
+- `sf` field represents **organ category labels**  (e.g., 0:"Soil" 1: "Stem", 2: "Leaf", 3: "Fruit")
 ### Instance Segmentation
 - The `sf` field represents instance IDs:
   - `0`: Ground
