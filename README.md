@@ -69,12 +69,12 @@ The dataset consists of a series of PLY and HDF5 files, compressed into a file n
 - **Data Structure**: X Y Z R G B sf
 
 ### Organ Segmentation
-- `sf` field represents **organ category labels**  (e.g., 0:"Soil" 1: "Stem", 2: "Leaf", 3: "Fruit")
+- `sf` field represents **organ category labels**  (e.g., `0`:"Soil",  `1`: "Stem",  `2`: "Leaf",  `3`: "Fruit")
 ### Instance Segmentation
 - The `sf` field represents instance IDs:
   - `0`: Ground
-  - `≥1`: Unique plant ID (e.g., `1`: Plant_1, `2`: Plant_2)
+  - `≥1`: Unique plant ID (e.g., `1`: Plant_1,  `2`: Plant_2)
 
-**Code Reading**: You can use the `read_ply2np` function from our `all_tools.py` in the GitHub repository to convert `.ply` files into a Numpy matrix. The label information can be directly extracted from `sf` (the last column of the matrix).
+**Code**: You can use the `read_ply2np` function from our `all_tools.py` in the GitHub repository to convert `.ply` files into a Numpy matrix. The label information can be directly extracted from `sf` (the last column of the matrix).
 
 **Visualization Tool**: We recommend using CloudCompare to open `.ply` files. The software supports rendering by `sf` attribute, making it easy to visually inspect the distribution of different organs.
