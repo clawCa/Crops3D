@@ -43,6 +43,11 @@ If you use Crops3D in your research, please cite our paper:
 
 The dataset is stored in the [figshare](https://figshare.com/) database and can be accessed and downloaded using the following DOI: [https://doi.org/10.6084/m9.figshare.27313272](https://doi.org/10.6084/m9.figshare.27313272).
 
+For convenience, a Baidu Netdisk mirror is also provided below:
+  
+>**Download Link:** https://pan.baidu.com/s/15bfYFDQUpBN0Rv-kzWfu-g?pwd=5iev 
+
+
 The dataset consists of a series of PLY and HDF5 files, compressed into a file named `Crops3D.zip`. It includes four main directories:
 
 ### 1. **Crops3D Directory**
